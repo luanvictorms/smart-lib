@@ -1,0 +1,52 @@
+{
+  "name": "SmartLibApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "apk:debug": "react-native run-android --variant=debug",
+    "apk:release": "react-native run-android --variant=release"
+  },
+  "dependencies": {
+    "@react-navigation/material-bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "@softwaresamm/react-native-rfid-ble": "^0.4.0",
+    "axios": "^0.24.0",
+    "base-64": "^1.0.0",
+    "base64-js": "^1.5.1",
+    "buffer": "^6.0.3",
+    "convert-string": "^0.1.0",
+    "moment": "^2.29.1",
+    "native-base": "^3.2.1",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-base64": "^0.2.1",
+    "react-native-ble-manager": "^7.6.3",
+    "react-native-ble-plx": "^2.0.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-pager-view": "^5.4.9",
+    "react-native-paper": "^4.10.1",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-vector-icons": "^9.0.0",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/runtime": "7.15.4",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
